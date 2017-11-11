@@ -1,0 +1,119 @@
+@media screen and (max-width:650px) {
+    body{
+        margin-top: 150px;
+    }
+    .playlist_container{
+        width: 100%;
+    }
+    header{
+        display: block;
+        padding-top: 1rem;
+    }
+    header form{
+        width: 90%;
+        margin: auto;
+    }
+    header input[type="search"]{
+        width: 100%;
+    }
+    #new_playlist_button{
+        font-size: 1rem;
+        margin: auto;
+    }
+    .player_container{
+        width: 270px;
+        height: 500px;
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .player_container .player{
+        width: 270px;
+        height: 250px;
+    }
+    .player_container .player:before{
+        width: 270px;
+        height: 270px;
+        top: 0;
+    }
+    .player_container .playlist_disc{
+        top: 10px;
+        left: 10px;
+    }
+    .player_container .player:after{
+        bottom: 0;
+    }
+    .player_container .audio_and_songname{
+        top: 300px;
+        right: 10px;
+    }
+    .playlist_edit_button{
+        top: -10px;
+        right: 0px;
+    }
+    .playlist_delete_button{
+        top: -10px;
+        left: 0px;
+    }
+    .content{
+        width: 80%;
+        height: 350px;
+    }
+    .new_playlist1_wrapper{
+        display: block;
+        position: relative;
+        height: auto;
+    }
+    .new_playlist1_wrapper form{
+        position: static;
+        width: 100%;
+    }
+    .new_playlist1_wrapper form label input{
+        width: 100%;
+    }
+    #preview{
+        width: 150px;
+        height: 150px;
+    }
+    #preview_img span{
+        margin-top: 3rem;
+    }
+    #error{
+       margin-top: 3rem;
+    }
+    .new_playlist1_wrapper form input[type="submit"],
+    .new_playlist1_wrapper form button{
+        bottom: -2rem;
+    }
+    .new_playlist2_wrapper form label input{
+        width: 25%;
+    }
+}
+@media screen and (min-width: 650px) and (max-width: 900px) {
+    .playlist_container{
+        width: 50%;
+    }
+    #new_playlist_button{
+        font-size: 1rem;
+    }
+    .playlist_edit_button{
+        top: 2rem;
+        right: 6rem;
+    }
+    .playlist_delete_button{
+        top: 2rem;
+        right: 10rem;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1300px) {
+    .playlist_container{
+        width: 33.3%;
+    }
+}
+@media screen and (min-width: 1300px) and (max-width: 1600px) {
+    .playlist_container{
+        width: 25%;
+    }
+}

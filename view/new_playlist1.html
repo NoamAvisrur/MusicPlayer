@@ -1,0 +1,19 @@
+    <form>
+        <label><span>Playlist Name</span>
+            <input name="new_playlist_name" type="text" maxlength="30" required>
+        </label>
+        <label><span>Playlist image URL</span>
+            <input 
+                name="new_playlist_url" 
+                type="text" 
+                placeholder="https://...jpg"  
+                pattern="^https?:\/\/.*\.(?:png|jpg)$" 
+                required>
+        </label>
+        <input type="submit" value="Next">
+        <button id="reset">Reset Fields</button>
+    </form>
+    <div id="preview">
+        <div id="preview_img"><span>Preview</span></div>
+    </div>
+
